@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46A228</color>
+    <color name="colorPrimaryDark">#2E8C28</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonLogin">#FBCA11</color>
+    <color name="buttonLogout">#898989</color>
+    <color name="textHint">#18872F</color>
+    <color name="line">#D6D6D6</color>
+    <color name="underline">#FFC0C0C0</color>
+    <color name="darkGreen">#006400</color>
+    <color name="green">#008000</color>
+    <color name="highlight">#e4e7ee</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="greenDark">#00A601</color>
+    <color name="background3">#6b6b6b</color>
+    <color name="newGreen">#63CA00</color>
+    <color name="newDarkGreen">#009B01</color>
+    <color name="newline">#d3d3d3</color>
+</resources>

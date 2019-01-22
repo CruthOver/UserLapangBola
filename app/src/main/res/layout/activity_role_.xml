@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Role_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lapangbola_logo"
+            android:adjustViewBounds="true"
+            android:maxHeight="128dp"
+            android:maxWidth="128dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUAT AKUN SEBAGAI"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/personal_regis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERSONAL"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:textColor="#FF008000"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/klub_regis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KLUB"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold"
+            android:textColor="#FF008000"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/pemilik_regis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMILIK \nLAPANGAN"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textColor="#FF008000"
+            android:background="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="204dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="75dp"
+        android:maxWidth="75dp"
+        android:src="@drawable/icon_reg_as_personal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="286dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="75dp"
+        android:maxWidth="75dp"
+        android:src="@drawable/icon_reg_as_klub"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="365dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="75dp"
+        android:maxWidth="75dp"
+        android:src="@drawable/icon_reg_as_pemilik_lapangan"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp" />
+</RelativeLayout>

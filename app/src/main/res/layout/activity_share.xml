@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:columnWidth="100dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:gravity="center|bottom"
+            android:horizontalSpacing="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:numColumns="3"
+            android:verticalSpacing="16dp"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_next"
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="36dp"
+            android:backgroundTint="@color/buttonLogin"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

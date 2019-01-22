@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bola.wiradipa.org.lapanganbola"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="bola.wiradipa.org.lapanganbola.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.RegisterActivity"
+            android:label="@string/title_register_activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ActivationActivity"
+            android:label="@string/title_activation_activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ForgotPasswordActivity"
+            android:label="@string/title_forgot_password_activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.LoginActivity"
+            android:label="@string/title_login_activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailVenueActivity"
+            android:label="@string/title_detail_venue_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.FieldsActivity"
+            android:label="@string/title_fields_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailFieldActivity"
+            android:label="@string/title_fields_activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.VenuesActivity"
+            android:label="@string/title_venues_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.FilterVenuesActivity"
+            android:label="@string/title_filter_venues_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.RentActivity"
+            android:label="@string/title_rent_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailRentActivity"
+            android:label="@string/title_detail_rent_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.SearchCityActivity"
+            android:label="@string/title_search_city_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ProfileActivity"
+            android:label="@string/title_profile_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.EditProfileActivity"
+            android:label="@string/title_edit_profile_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.MatchesActivity"
+            android:label="@string/title_matches_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ShareActivity"
+            android:label="@string/title_share_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.UploadCardActivity"
+            android:label="@string/label_upload_student_card"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.StatisticActivity"
+            android:label="@string/title_statistic_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.OrdersActivity"
+            android:label="@string/title_orders_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailOrderActivity"
+            android:label="@string/title_detail_order_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.SettingActivity"
+            android:label="@string/title_setting_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ImageActivity"
+            android:label="@string/title_share_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.Role_Activity"
+            android:label="" />
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.PaymentActivity"
+            android:label="PEMBAYARAN" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailLapanganActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailLapanganActivity"
+            android:label="DETAIL LAPANGAN" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VenuesActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.JadwalActivity"
+            android:label="JADWAL TANDING" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.AkanDatangActivity"
+            android:label="JADWAL TANDING" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JadwalActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.ProfilActivity"
+            android:label="EDIT PROFILE" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.AjakTandingActivity"
+            android:label="AJAK TANDING" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="bola.wiradipa.org.lapanganbola.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

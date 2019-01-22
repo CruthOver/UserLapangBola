@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Lapangbola</string>
+    <string name="register"><u>Dont Have an Account yet?</u></string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_navigation_bottom">NavigationBottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TITLE/HEADER -->
+    <string name="title_main_activity">BERANDA</string>
+    <string name="title_login_activity">Lapangan Bola</string>
+    <string name="title_register_activity">REGISTRASI</string>
+    <string name="header_register_activity">DATA DIRI</string>
+    <string name="title_activation_activity">AKTIVASI</string>
+    <string name="title_forgot_password_activity">LUPA PASSWORD</string>
+    <string name="title_filter_venues_activity">CARI LAPANGAN</string>
+    <string name="title_venues_activity">SEWA LAPANGAN</string>
+    <string name="title_detail_venue_activity">VENUE</string>
+    <string name="title_fields_activity">LAPANGAN</string>
+    <string name="title_rent_activity">DATA PESANAN</string>
+    <string name="title_detail_rent_activity">PESANAN ANDA</string>
+    <string name="title_search_city_activity">PILIH AREA</string>
+    <string name="title_profile_activity">PROFILE</string>
+    <string name="title_edit_profile_activity">EDIT PROFILE</string>
+    <string name="title_choose_image">Pilih Photo</string>
+    <string name="title_matches_activity">PERTANDINGAN</string>
+    <string name="title_share_activity">PILIH PHOTO</string>
+    <string name="title_statistic_activity">PILIH PHOTO</string>
+    <string name="title_activation_done">Aktivasi Berhasil</string>
+    <string name="title_orders_activity">Pesanan</string>
+    <string name="title_detail_order_activity">Detil Pesanan</string>
+    <string name="title_setting_activity">SETTING</string>
+
+    <!-- LABEL -->
+    <string name="label_city">Kota</string>
+    <string name="label_rent_date">Tanggal Main</string>
+    <string name="label_hour">Waktu Main</string>
+    <string name="label_end_hour">Selesai Main</string>
+    <string name="label_duration">Durasi Main</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_cancel">Batal</string>
+    <string name="label_close">Tutup</string>
+    <string name="label_reset">Reset</string>
+    <string name="label_rent_rate">Harga Sewa</string>
+    <string name="label_facility">Fasilitas</string>
+    <string name="label_description">Deskripsi</string>
+    <string name="label_location">Lokasi</string>
+    <string name="label_address">Alamat</string>
+    <string name="label_rent_rate_description">Harga mulai dari</string>
+    <string name="label_choose_field">Pilih lapang</string>
+    <string name="label_unit_hour"> /jam</string>
+    <string name="label_unit_currency">Rp. </string>
+    <string name="label_view_detail">Lihat detail</string>
+    <string name="label_grass_type">Jenis lapangan</string>
+    <string name="label_pitch_size">Ukuran lapangan</string>
+    <string name="label_booking_cancel">Aturan pembatalan</string>
+    <string name="label_rent">Sewa</string>
+    <string name="label_unit_length">meter</string>
+    <string name="label_your_order">Pesanan Anda</string>
+    <string name="label_detail_contact">Detail Kontak</string>
+    <string name="label_user_name">Nama Pemesan</string>
+    <string name="label_user_phone">Nomor Telepon</string>
+    <string name="label_user_email">Email</string>
+    <string name="label_pay">Bayar</string>
+    <string name="label_order">Pesan</string>
+    <string name="label_book">Book</string>
+    <string name="label_transaction_number">Nomor Transaksi</string>
+    <string name="label_payment">Pembayaran</string>
+    <string name="label_payment_status">Status DP</string>
+    <string name="label_edit_profile">Edit Profil</string>
+    <string name="label_upload_student_card">Upload Kartu Pelajar</string>
+    <string name="label_student">Pelajar</string>
+    <string name="label_nonstudent">Umum</string>
+    <string name="label_upload_payment">Konfirmasi Pembayaran</string>
+    <string name="label_payment_file">Berkas Bukti Pembayaran</string>
+    <string name="label_save">Simpan</string>
+    <string name="label_edit_photo">Edit Photo</string>
+    <string name="label_upload">Upload</string>
+    <string name="label_share">Share</string>
+    <string name="label_next">Lanjut</string>
+    <string name="label_choose_statistic">Pilihan Statistik</string>
+    <string name="label_back_to_home">kembali ke Home</string>
+    <string name="label_pay_now">Bayar Sekarang</string>
+    <string name="label_booking">Booking Lapangan</string>
+    <string name="label_back_to_orders">Halaman Pesanan</string>
+    <string name="label_reupload_payment">Upload Ulang bukti DP</string>
+    <string name="label_logout">LOGOUT</string>
+    <string name="label_yes">Iya</string>
+    <string name="label_no">Tidak</string>
+    <string name="label_change_photo">Ganti Photo</string>
+
+    <!-- UNIT -->
+    <string name="unit_duration">jam</string>
+    <string name="unit_crossing">CROSSING</string>
+    <string name="unit_goal">GOAL</string>
+    <string name="unit_assist">ASSIST</string>
+
+    <!-- HINT -->
+    <string name="hint_activation">KIRIM</string>
+    <string name="hint_login">LOGIN</string>
+    <string name="hint_register">REGISTRASI</string>
+    <string name="hint_search">CARI</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Nomor HP</string>
+    <string name="hint_address">Domisili</string>
+    <string name="hint_confirm_password">Konfirmasi Password</string>
+    <string name="hint_activation_code">Kode Aktivasi</string>
+    <string name="hint_city">Pilih Kota/Area</string>
+    <string name="hint_rent_date">Pilih Tanggal</string>
+    <string name="hint_hour">Pilih Waktu</string>
+    <string name="hint_duration">Pilih Durasi</string>
+    <string name="hint_copy_text">Salin nomor rekening</string>
+    <string name="hint_select">Pilih</string>
+    <string name="hint_logout">Anda ingin logout ?</string>
+
+    <!-- STATUS DP -->
+    <string-array name="dp_status">
+        <item>Belum Upload Bukti Transfer</item>
+        <item>Valid</item>
+        <item>Ditolak karena</item>
+        <item>Menunggu konfirmasi admin</item>
+    </string-array>
+
+    <!-- MENU -->
+    <string name="menu_match">Pertandingan</string>
+    <string name="menu_rental">Sewa Lapangan</string>
+    <string name="menu_request_match">Ajak Tanding</string>
+    <string name="menu_order">Pesanan</string>
+
+    <!-- ERROR INPUT -->
+    <string name="error_username">Username terlalu pendek</string>
+    <string name="error_password">Password terlalu pendek</string>
+    <string name="error_confirm_password">Password terlalu pendek</string>
+    <string name="error_password_not_match">Confirm Password terlalu pendek</string>
+    <string name="error_name">Nama terlalu pendek</string>
+    <string name="error_email">Email tidak valid</string>
+    <string name="error_phone">Nomor HP tidak valid</string>
+    <string name="error_activation">Aktivasi tidak valid</string>
+    <string name="error_no_data_filter">Tanggal, jam, dan durasi main harus diisi</string>
+    <string name="error_permission_denied">permission denied</string>
+    <string name="error_create_image">terjadi kesalahan dalam gambar.</string>
+
+    <!-- WARNING -->
+    <string name="warning_title">Konfirmasi</string>
+    <string name="warning_back">Anda yakin ingin meninggalkan halaman ini</string>
+    <string name="warning_ok">iya</string>
+    <string name="warning_cancel">tidak</string>
+
+    <!-- ERROR API -->
+    <string name="forgot_ok">Data Pengguna telah dikirim ke nomor handphone anda.</string>
+    <string name="register_ok">Register Berhasil</string>
+    <string name="submit_ok">Data berhasil disimpan</string>
+    <string name="error_500">Server Error : Kesalahan Server Dari Dalam</string>
+    <string name="error_400">Server Error : Permintaan yang buruk</string>
+    <string name="error_403">Server Error : Terlarang</string>
+    <string name="error_404">Server Error : Tidak ditemukan</string>
+    <string name="error_xxx">Error Tidak Ditemukan</string>
+    <string name="error_parsing">Format Data Cacat</string>
+    <string name="error_device_not_found">Format Data Cacat</string>
+    <string name="error_zero_data">data yg ditemukan : 0</string>
+    <string name="process_api">Koneksi Server</string>
+    <string name="processing">Sedang Menyiapkan</string>
+
+    <!-- MESSAGE -->
+    <string name="activation_done">Selamat akun anda sudah aktif. Silakan login</string>
+
+    <!-- Spinner -->
+    <string-array name="field_types">
+        <item>Lapangan Futsal</item>
+        <item>Lapangan Bola</item>
+    </string-array>
+
+    <!-- Setting -->
+    <string-array name="setting_titles">
+        <item>Akun</item>
+        <item>Pembayaran</item>
+        <item>Notifikasi</item>
+    </string-array>
+    <string-array name="setting_descriptions">
+        <item>Data diri dan kontak</item>
+        <item>Rekening dan metode lainnya</item>
+        <item>Chat, diskusi dan lainnya</item>
+    </string-array>
+
+    <!-- OTHER -->
+    <string-array name="choose_images">
+        <item>Kamera</item>
+        <item>Pilih Photo</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_jadwal_tanding">JadwalTandingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_jadwal">JadwalActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string-array name="array_spinner">
+        <item>Futsal</item>
+        <item>Lapangan Bola</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

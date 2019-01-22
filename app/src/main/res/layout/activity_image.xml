@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageActivity">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/highlight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/canvas"
+                android:layout_width="@dimen/holder_width"
+                android:layout_height="@dimen/holder_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:id="@+id/holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@color/underline"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/label_change_photo"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/newGreen"
+                android:textSize="16sp"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_next"
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="36dp"
+            android:backgroundTint="@color/buttonLogin"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
