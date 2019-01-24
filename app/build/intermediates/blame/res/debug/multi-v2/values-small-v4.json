@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\FOLDER GUA\\Wiradipa\\UserLapangBola\\LapanganBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "I:\\Android\\UserLapangBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "D:\\FOLDER GUA\\Wiradipa\\UserLapangBola\\LapanganBola\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "source": "I:\\Android\\UserLapangBola\\app\\src\\main\\res\\values-small\\dimens.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
-                        "startOffsets": "100,55",
+                        "startOffsets": "103,57",
                         "endColumns": "45,44",
-                        "endOffsets": "141,95"
+                        "endOffsets": "144,97"
                     },
                     "to": {
                         "startLines": "2,3",

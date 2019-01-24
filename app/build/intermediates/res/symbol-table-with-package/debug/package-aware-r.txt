@@ -1285,6 +1285,7 @@ id beranda_pager
 id blocking
 id booking_cancel
 id bottom
+id btn_submit
 id buttonPanel
 id cancel
 id cancel_action
@@ -1409,6 +1410,7 @@ id listMode
 id list_item
 id logout
 id main_content
+id map
 id map_view
 id masked
 id match
@@ -1461,6 +1463,11 @@ id progress_circular
 id progress_horizontal
 id radio
 id rating_bar
+id rb_choice_1
+id rb_choice_2
+id rb_choice_3
+id rb_choice_4
+id rb_choice_5
 id rectangle
 id recycler_view
 id register
@@ -1512,6 +1519,7 @@ id snap
 id snapMargins
 id spacer
 id split_action_bar
+id spn_jammulai
 id spread
 id spread_inside
 id src_atop
@@ -1565,7 +1573,15 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_biaya
+id tv_jammulai
+id tv_jamselesai
+id tv_kota
+id tv_lokasi
 id tv_process
+id tv_provinvi
+id tv_tanggalpertandingan
+id tv_umur
 id twitter
 id txt_close_layout
 id txt_match
@@ -1640,6 +1656,7 @@ layout abc_tooltip
 layout activity_activation
 layout activity_ajak_tanding
 layout activity_akan_datang
+layout activity_buat_pertandingan
 layout activity_detail_field
 layout activity_detail_lapangan
 layout activity_detail_order
