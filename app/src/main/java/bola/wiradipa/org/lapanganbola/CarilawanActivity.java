@@ -1,21 +1,36 @@
 package bola.wiradipa.org.lapanganbola;
 
+import android.app.DatePickerDialog;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.RadioButton;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class CarilawanActivity extends AppCompatActivity implements View.OnClickListener {
     RadioButton rb1,rb2,rb3,rb4,rb5;
+    Button btnDatePicker;
+    EditText txtDate;
+    private int mYear,mMonth,mDay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cari_lawan);
+        setContentView(R.layout.activity_main);
         rb1 = (RadioButton) findViewById(R.id.btn_choice1);
         rb2 = (RadioButton) findViewById(R.id.btn_choice2);
         rb3 = (RadioButton) findViewById(R.id.btn_choice3);
         rb4 = (RadioButton) findViewById(R.id.btn_choice4);
         rb5 = (RadioButton) findViewById(R.id.btn_choice5);
+        txtDate=(EditText)findViewById(R.id.rent_date);
+        txtDate.setOnClickListener(this);
+
         rb1.setOnClickListener(this);
         rb2.setOnClickListener(this);
         rb3.setOnClickListener(this);
@@ -23,6 +38,7 @@ public class CarilawanActivity extends AppCompatActivity implements View.OnClick
         rb5.setOnClickListener(this);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -111,6 +127,23 @@ public class CarilawanActivity extends AppCompatActivity implements View.OnClick
                     rb4.setSelected(false);
                 }
                 break;
+        }
+        if (v == txtDate){
+            final Calendar c = Calendar.getInstance();
+
+
+            DatePickerDialog datePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+                @Override
+                public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                    c.set(Calendar.YEAR,year);
+                    c.set(Calendar.MONTH,monthOfYear);
+                    c.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+                    SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyy");
+                    txtDate.setText(dateFormat.format(c.getTime()));
+                }
+            },c.get(Calendar.YEAR),c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
+            datePickerDialog.show();
+
         }
     }
 }

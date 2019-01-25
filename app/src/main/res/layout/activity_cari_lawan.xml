@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CarilawanActivity">
+
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
@@ -29,21 +30,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/tv_date"
+                <EditText
+                    android:id="@+id/rent_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.3"
                     android:clickable="true"
                     android:focusable="false"
-                    android:text="Pilih Tanggal"
-                    android:textColor="@color/greenDark"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_rent_date"
+                    android:textColor="@color/textHint"
+                    android:textColorHint="@color/textHint"
                     android:textSize="16sp" />
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_date_range_black_24dp"
-                    android:layout_gravity="right"/>
+
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
@@ -111,34 +111,43 @@
                             android:id="@+id/btn_choice1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="10-15 Tahun"/>
+                            android:layout_marginRight="5dp"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="10 - 15 Tahun"/>
                         <RadioButton
                             android:id="@+id/btn_choice2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:buttonTint="@color/colorPrimary"
                             android:layout_toRightOf="@id/btn_choice1"
-                            android:text="21-30 Tahun"/>
+                            android:text="21 - 30 Tahun"/>
                         <RadioButton
                             android:id="@+id/btn_choice3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
                             android:layout_toRightOf="@id/btn_choice2"
+                            android:buttonTint="@color/colorPrimary"
                             android:text="Bebas"/>
 
                         <RadioButton
                             android:id="@+id/btn_choice4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
                             android:layout_below="@id/btn_choice1"
-                            android:text="16-20 Tahun"/>
+                            android:layout_marginRight="5dp"
+                            android:text="16 - 20 Tahun"/>
 
                         <RadioButton
                             android:id="@+id/btn_choice5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@id/btn_choice2"
+                            android:buttonTint="@color/colorPrimary"
                             android:layout_toRightOf="@id/btn_choice4"
-                            android:text="30>"/>
+                            android:text="30 >"/>
                     </RelativeLayout>
                 </RadioGroup>
             </RelativeLayout>
@@ -201,10 +210,7 @@
                         android:hint="Rp."
                         android:textSize="12sp"/>
                 </LinearLayout>
-
-
             </RelativeLayout>
-
             <Button
                 android:id="@+id/submit"
                 android:layout_width="match_parent"
