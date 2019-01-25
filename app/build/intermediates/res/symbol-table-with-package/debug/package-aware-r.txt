@@ -713,6 +713,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color drop_down
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1282,9 +1283,17 @@ id banks
 id barrier
 id beginning
 id beranda_pager
+id biaya
+id biayamax
+id biayamin
 id blocking
 id booking_cancel
 id bottom
+id btn_choice1
+id btn_choice2
+id btn_choice3
+id btn_choice4
+id btn_choice5
 id buttonPanel
 id cancel
 id cancel_action
@@ -1405,6 +1414,8 @@ id left
 id light
 id line1
 id line3
+id linear1
+id linear2
 id listMode
 id list_item
 id logout
@@ -1572,6 +1583,7 @@ id txt_match
 id txt_order
 id txt_rental
 id txt_request_match
+id umur
 id uniform
 id unlabeled
 id up
@@ -1640,6 +1652,7 @@ layout abc_tooltip
 layout activity_activation
 layout activity_ajak_tanding
 layout activity_akan_datang
+layout activity_cari_lawan
 layout activity_detail_field
 layout activity_detail_lapangan
 layout activity_detail_order
