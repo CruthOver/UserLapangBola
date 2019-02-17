@@ -54,8 +54,6 @@
 
         </android.support.v7.widget.Toolbar>
 
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,6 +77,18 @@
                     android:gravity="bottom|center_horizontal"
                     android:orientation="horizontal"></LinearLayout>
             </RelativeLayout>
+            
+            <TextView
+                    android:id="@+id/tanggal"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_rent_rate"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:clickable="true"
+                    android:focusable="false"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -234,7 +244,7 @@
                     android:textColor="@color/colorPrimary"
                     android:textSize="12sp" />
             </LinearLayout>
-            <bola.wiradipa.org.lapanganbola.NonScrollGridView
+<!--             <bola.wiradipa.org.lapanganbola.NonScrollGridView
                 android:id="@+id/spotsView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -246,15 +256,20 @@
                 android:isScrollContainer="false"
                 android:numColumns="3"
                 android:stretchMode="columnWidth"
-                android:verticalSpacing="10dp"/>
+                android:verticalSpacing="10dp"/> -->
             <GridView
-                android:id="@+id/gridview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:columnWidth="90dp"
-                android:numColumns="3"
-                android:stretchMode="columnWidth"
-                android:verticalSpacing="10dp"/>
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:gravity="center|bottom"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp"
+                    android:numColumns="3"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp" />
             <Button
                 android:id="@+id/submit"
                 android:layout_width="match_parent"
