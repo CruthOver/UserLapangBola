@@ -64,7 +64,7 @@ public class GridViewAdapter extends BaseAdapter {
     public View getView(final int i, View view, ViewGroup viewGroup) {
         ViewHolder holder = null;
         if (view == null){
-            view = LayoutInflater.from(mContext).inflate(R.layout.grid_view_layout, viewGroup, false);
+            view = LayoutInflater.from(mContext).inflate(R.layout.content_grid_view, viewGroup, false);
             holder = new ViewHolder();
             holder.tvHour = (TextView) view.findViewById(R.id.jam);
             holder.tvCost = (TextView) view.findViewById(R.id.harga);
