@@ -26,6 +26,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BookingFieldActivity"></activity>
+        <activity android:name=".CarilawanActivity"></activity>
 
         <provider
             android:name="android.support.v4.content.FileProvider"

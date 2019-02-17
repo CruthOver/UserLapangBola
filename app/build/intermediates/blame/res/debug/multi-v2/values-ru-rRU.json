@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\FOLDER GUA\\Wiradipa\\UserLapangBola\\LapanganBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "H:\\KULIAH\\SEMESTER 6\\MAGANG\\Project Magang\\UserLapangBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CruthOvr\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\73ae0bfce85309d5fa889fd6b6dceb04\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\82c0078f9141373add84686de33f2578\\res\\values-ru-rRU\\values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

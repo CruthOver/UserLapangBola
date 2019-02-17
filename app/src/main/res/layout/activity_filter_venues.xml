@@ -135,7 +135,8 @@
                         android:hint="@string/hint_hour"
                         android:clickable="true"
                         android:focusable="false"
-                        android:textColorHint="@color/textHint"/>
+                        android:textColorHint="@color/textHint"
+                        />
                 </LinearLayout>
                 <ImageView
                     android:layout_width="wrap_content"
