@@ -32,18 +32,24 @@ import bola.wiradipa.org.lapanganbola.models.Field;
 
 public class DetailFieldActivity extends BaseActivity {
 
-    private TextView tvTitleField,tvTitleVenue,tvRentRate,tvPitchSize,tvGrassType,tvBookingCancel;
+    private TextView tvTitleField,tvTitleVenue,tvRentRate,tvPitchSize,tvGrassType,tvBookingCancel
+        , tvTanggal;
     private Button btnSubmit;
     private ViewPager viewPager;
     private FieldPagerAdapter vpAdapter;
     private LinearLayout sliderDotspanel;
-    private GridView mGridView;
+    private GridView gvSchedule;
 
     private int dotscount;
     private ImageView[] dots;
     private boolean canSubmit=false;
     private NonScrollGridView nonScrollGridView;
 
+    DatePickerDialog.OnDateSetListener mDatePicker;
+    String df_full, mDate, name;
+
+    private Booking booking;
+    private List<Booking> bookingList;
     private Field field;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -59,6 +65,7 @@ public class DetailFieldActivity extends BaseActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        bookingList = new ArrayList<Booking>();
         tvTitleField = findViewById(R.id.title_field);
         tvTitleVenue = findViewById(R.id.title_venue);
         tvRentRate = findViewById(R.id.rent_rate);
@@ -66,33 +73,7 @@ public class DetailFieldActivity extends BaseActivity {
         tvGrassType = findViewById(R.id.grass_type);
         tvBookingCancel = findViewById(R.id.booking_cancel);
         btnSubmit = findViewById(R.id.submit);
-        mGridView = findViewById(R.id.gridview);
-
-        final ArrayList<Booking> booking = new ArrayList<Booking>();
-        booking.add(new Booking("00.00 - 01.00" , "100k"));
-        booking.add(new Booking("01.00 - 02.00" , "100k"));
-        booking.add(new Booking("02.00 - 03.00" , "100k"));
-        booking.add(new Booking("03.00 - 04.00" , "100k"));
-        booking.add(new Booking("04.00 - 05.00" , "100k"));
-        booking.add(new Booking("05.00 - 06.00" , "100k"));
-        booking.add(new Booking("06.00 - 07.00" , "100k"));
-        booking.add(new Booking("07.00 - 08.00" , "125k"));
-        booking.add(new Booking("08.00 - 09.00" , "125k"));
-        booking.add(new Booking("09.00 - 10.00" , "125k"));
-        booking.add(new Booking("10.00 - 11.00" , "125k"));
-        booking.add(new Booking("11.00 - 12.00" , "125k"));
-        booking.add(new Booking("12.00 - 13.00" , "150k"));
-        booking.add(new Booking("13.00 - 14.00" , "150k"));
-        booking.add(new Booking("14.00 - 15.00" , "150k"));
-        booking.add(new Booking("15.00 - 16.00" , "150k"));
-        booking.add(new Booking("16.00 - 17.00" , "150k"));
-        booking.add(new Booking("17.00 - 18.00" , "175k"));
-        booking.add(new Booking("18.00 - 19.00" , "175k"));
-        booking.add(new Booking("19.00 - 20.00" , "175k"));
-        booking.add(new Booking("20.00 - 21.00" , "175k"));
-        booking.add(new Booking("21.00 - 22.00" , "175k"));
-        booking.add(new Booking("22.00 - 23.00" , "175k"));
-        booking.add(new Booking("23.00 - 24.00" , "175k"));
+        gvSchedule = findViewById(R.id.gridview);
 
         nonScrollGridView = (NonScrollGridView) findViewById(R.id.spotsView);
         nonScrollGridView.setExpanded(true);
@@ -127,6 +108,12 @@ public class DetailFieldActivity extends BaseActivity {
 
         showProgressBar(true);
         mApiService.getField(getLongExtraData(EXTRA_ID), getUserToken()).enqueue(getCallback.build());
+        if (getStringExtraData(FILTER_DATE).equals(getString(R.string.hint_rent_date))){
+            mApiService.getScheduleField(getUserToken(), getLongExtraData(EXTRA_ID), getDate(getStringExtraData(FILTER_DATE)))
+                    .enqueue(getSchedule.build());
+        } else {
+            mApiService.getScheduleField(getUserToken(), getLongExtraData(EXTRA_ID), getStringExtraData(FILTER_DATE)).enqueue(getSchedule.build());
+        }
     }
 
     private void initData(){
@@ -143,6 +130,18 @@ public class DetailFieldActivity extends BaseActivity {
         vpAdapter = new FieldPagerAdapter(context, fields, null);
         viewPager.setAdapter(vpAdapter);
 
+        Date rentDate = DateHelper.parsingDate("dd-MM-yyyy kk:mm",
+                getStringExtraData(FILTER_DATE)+" "+getStringExtraData(FILTER_HOUR));
+
+        gvAdapter = new GridViewAdapter(context, bookingList);
+        gvAdapter.setBackgroundStartHour(getStringExtraData(FILTER_HOUR));
+        if (!getStringExtraData(FILTER_DURATION).equals("Pilih Durasi")){
+            Date endDate = DateHelper.addDate(rentDate,DateHelper.HOUR,
+                    Integer.parseInt(getStringExtraData(FILTER_DURATION).split(" ")[0]));
+            gvAdapter.setBackgroundEndHour(DateHelper.formatDate("kk:mm", endDate));
+        }
+        gvSchedule.setAdapter(gvAdapter);
+        
         dotscount = vpAdapter.getCount();
         dots = new ImageView[dotscount];
 
@@ -184,6 +183,78 @@ public class DetailFieldActivity extends BaseActivity {
             }
         });
     }
+    
+    private String getDate(String date){
+        final Calendar cal = Calendar.getInstance();
+        int year = cal.get(Calendar.YEAR);
+        int month = cal.get(Calendar.MONTH);
+        int day = cal.get(Calendar.DAY_OF_MONTH);
+        String tempDate = null;
+
+        Locale local = new Locale("id", "id");
+
+        month = month + 1;
+        date = year + "-" + checkDigit(month) + "-" + checkDigit(day);
+
+        cal.setTimeInMillis(0);
+        cal.set(year, month, day, 0, 0, 0);
+
+        final DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.FULL, local);
+        df_full = dateFormat.format(cal.getTime());
+
+        tempDate = getIntent().getStringExtra("date");
+        if(tempDate!=null){
+            date = tempDate;
+        }else{
+            date = year + "-" + checkDigit(month) + "-" + checkDigit(day);
+        }
+
+        tvTanggal.setText(df_full);
+        mDatePicker = new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                month = month + 1;
+                String tempDate = year + "-" + checkDigit(month) + "-" + checkDigit(dayOfMonth);
+                cal.set(year, month, dayOfMonth, 0 , 0 , 0);
+                df_full = dateFormat.format(cal.getTime());
+//                if (!getStringExtraData(FILTER_DATE).equals(R.string.hint_rent_date)){
+//                    df_full = getStringExtraData(FILTER_DATE);
+//                } else {
+//                    df_full = dateFormat.format(cal.getTime());
+//                }
+                tvTanggal.setText(df_full);
+                gvAdapter.clearData();
+                mApiService.getScheduleField(getUserToken(), getLongExtraData(EXTRA_ID), tempDate)
+                        .enqueue(getSchedule.build());
+//                refreshActivity();
+
+            }
+        };
+
+        tvTanggal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar cal = Calendar.getInstance();
+                int year = cal.get(Calendar.YEAR);
+                int month = cal.get(Calendar.MONTH);
+                int day = cal.get(Calendar.DAY_OF_MONTH);
+
+                DatePickerDialog dialog = new DatePickerDialog(DetailFieldActivity.this,
+                        R.style.Theme_AppCompat_DayNight_Dialog_MinWidth,
+                        mDatePicker,year,month,day);
+                dialog.getDatePicker().setMinDate(cal.getTimeInMillis());
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.WHITE));
+                dialog.show();
+            }
+        });
+
+        return date;
+    }
+    
+    public String checkDigit(int number)
+    {
+        return number<=9?"0"+number:String.valueOf(number);
+    }
 
     ApiCallback getCallback = new ApiCallback() {
         @Override
@@ -194,6 +265,26 @@ public class DetailFieldActivity extends BaseActivity {
             Log.d(TAG, new Gson().toJson(field));
             if(field!=null)
                 initData();
+        }
+
+        @Override
+        public void onApiFailure(String errorMessage) {
+            showProgressBar(false);
+            showSnackbar(errorMessage);
+        }
+    };
+    
+    ApiCallback getSchedule = new ApiCallback() {
+        @Override
+        public void onApiSuccess(String result) {
+            showProgressBar(false);
+            Gson gson = new GsonBuilder().registerTypeAdapter(Double.class, new DoubleTypeAdapter()).create();
+            ApiData<Booking> apiData = gson.fromJson(result, new TypeToken<ApiData<Booking>>(){}.getType());
+            Log.d(TAG, new Gson().toJson(apiData));
+            bookingList = apiData.getData();
+            gvAdapter.setData(bookingList);
+            if(bookingList.size()==0)
+                showSnackbar(R.string.error_zero_data);
         }
 
         @Override
