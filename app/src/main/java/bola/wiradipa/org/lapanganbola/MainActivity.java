@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.google.gson.Gson;
@@ -68,6 +69,8 @@ public class MainActivity extends BaseActivity {
 
             ActionBar actionBar = getSupportActionBar();
             actionBar.hide();
+
+            Log.d("TOKEEEEN", getUserToken());
 
             homeFragment = new HomeFragment();
             homeFragment.setUser(getUserSession());

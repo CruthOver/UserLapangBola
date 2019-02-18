@@ -17,6 +17,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/change_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Change Color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"/>
+
                 <RelativeLayout
                     android:id="@+id/canvas"
                     android:layout_width="@dimen/holder_width"
@@ -311,7 +322,7 @@
                         android:padding="3dp"
                         android:maxWidth="55dp"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/diffence_1" />
+                        android:src="@drawable/defense_1" />
                     <ImageView
                         android:id="@+id/defence2"
                         android:layout_width="wrap_content"
@@ -322,7 +333,7 @@
                         android:padding="3dp"
                         android:maxWidth="55dp"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/diffence_2" />
+                        android:src="@drawable/defense_2" />
                     <ImageView
                         android:id="@+id/goalkeeper"
                         android:layout_width="wrap_content"

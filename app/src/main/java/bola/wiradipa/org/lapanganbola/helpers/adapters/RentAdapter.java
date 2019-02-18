@@ -86,7 +86,7 @@ public class RentAdapter extends RecyclerView.Adapter<RentAdapter.MyViewHolder> 
         holder.venue.setText(data.getVenue());
         holder.amount.setText(MoneyHelper.toMoneyWithRp(""+data.getAmount()));
         holder.rent_date.setText(DateHelper.getDate(data.getRental_date()));
-        holder.duration.setText("Durasi : "+data.getDuration()+" jam");
+        holder.duration.setText("Jam Mulai : "+data.getStart_hour()+":00");
 
         switch (data.getDown_payment_status()){
             case 0:

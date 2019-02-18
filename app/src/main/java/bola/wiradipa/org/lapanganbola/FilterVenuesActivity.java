@@ -49,15 +49,17 @@ public class FilterVenuesActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
 //                submitNow();
-                Intent i = new Intent(context, VenuesActivity.class);
-                i.putExtra(FILTER_DATE, tvRentDate.getText().toString());
-                i.putExtra(FILTER_HOUR, tvHour.getText().toString());
-                i.putExtra(FILTER_DURATION, tvDuration.getText().toString());
-                if(fieldTypes.size()>0)
-                    i.putExtra(FILTER_FIELD_TYPE, ""+((FieldType)spFieldType.getSelectedItem()).getId());
-                if(city!=null)
-                    i.putExtra(FILTER_AREA, ""+city.getId());
-                startActivity(i);
+//                if (isEmptyCheck()){
+                    Intent i = new Intent(context, VenuesActivity.class);
+                    i.putExtra(FILTER_DATE, tvRentDate.getText().toString());
+                    i.putExtra(FILTER_HOUR, tvHour.getText().toString());
+                    i.putExtra(FILTER_DURATION, tvDuration.getText().toString());
+                    if(fieldTypes.size()>0)
+                        i.putExtra(FILTER_FIELD_TYPE, ""+((FieldType)spFieldType.getSelectedItem()).getId());
+                    if(city!=null)
+                        i.putExtra(FILTER_AREA, ""+city.getId());
+                    startActivity(i);
+//                }
             }
         });
 
@@ -107,6 +109,24 @@ public class FilterVenuesActivity extends BaseActivity {
             }
         }.build());
     }
+
+//    private boolean isEmptyCheck(){
+//        boolean status = true;
+//        tvDuration.setError(null);
+//
+//        if (tvDuration.getText().toString().equalsIgnoreCase(tvDuration.getHint().toString())){
+//            status = false;
+//            showEmptyMessage(R.string.title_dialog_error_message, R.string.error_duration, R.string.check_empty_ok);
+//        } else if (tvHour.getText().toString().equalsIgnoreCase(tvHour.getHint().toString())){
+//            status = false;
+//            showEmptyMessage(R.string.title_dialog_error_message, R.string.error_start_hour, R.string.check_empty_ok);
+//        } else if (tvRentDate.getText().toString().equalsIgnoreCase(tvRentDate.getHint().toString())){
+//            status = false;
+//            showEmptyMessage(R.string.title_dialog_error_message, R.string.error_date, R.string.check_empty_ok);
+//        }
+//
+//        return status;
+//    }
 
     private void submitNow(){
         String rent_date = tvRentDate.getText().toString();

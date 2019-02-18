@@ -1,123 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_detail_pertandingan">
+    tools:context=".DetailPertandinganActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/headBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay"/>
-
-    </android.support.design.widget.AppBarLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
-
-        <TextView
-            android:id="@+id/detailPertandingan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Detail Pertandingan"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"/>
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/detail"
-            android:layout_below="@id/detailPertandingan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Detail"
             android:gravity="center_horizontal"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"/>
 
         <LinearLayout
-            android:id="@+id/linearWaktu"
-            android:layout_below="@+id/detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="10">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewTglMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tanggal main"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:id="@+id/viewWaktuMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Waktu main"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:id="@+id/viewSelesaiMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Selesai main"
-                    android:textSize="16sp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_weight="1.2"
+                android:text="Tanggal Main"
+                android:textSize="16sp"/>
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="6"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="30 Agustus 2018"
+                android:textSize="16sp"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txtTglMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="30 Agustus 2018"
-                    android:textStyle="bold"
-                    android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-                <TextView
-                    android:id="@+id/txtWaktuMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="19.00"
-                    android:textStyle="bold"
-                    android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Waktu Main"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="19.00"
+                android:textSize="16sp"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txtSelesaiMain"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="20.00"
-                    android:textStyle="bold"
-                    android:textSize="16sp"/>
-            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
 
-
-
-
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Selesai Main"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="20.00"
+                android:textSize="16sp"/>
         </LinearLayout>
 
         <TextView
@@ -126,114 +95,101 @@
             android:layout_height="1dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:layout_below="@id/linearWaktu"
             android:background="@color/underline"
-            />
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
         <LinearLayout
-            android:id="@+id/linearklub"
-            android:layout_below="@+id/garis1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="10">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewNamaKlub"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nama Klub"/>
-
-                <TextView
-                    android:id="@+id/viewDeskClub"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Deskripsi Club"/>
-
-                <TextView
-                    android:id="@+id/viewNama"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nama"/>
-
-                <TextView
-                    android:id="@+id/viewPJ"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Penanggung jawab"/>
-
-                <TextView
-                    android:id="@+id/viewNoHp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nomor HP"/>
-
-                <TextView
-                    android:id="@+id/ViewPJ2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Penanggung jawab"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_weight="1.2"
+                android:text="Nama Klub"
+                android:textSize="16sp"/>
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="6"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="Bhineka FC"
+                android:textSize="16sp"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txtNamaKlub"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bhineka FC"
-                    android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-                <TextView
-                    android:id="@+id/txtDescKlub"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="lorem ipsum dorem"
-                    android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Deskripsi Club"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="-"
+                android:textSize="16sp"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txtNama"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Anton"
-                    android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-                <TextView
-                    android:id="@+id/txtPJ"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Nama \npenanggung jawab"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="Anton"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"/>
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/txtNoHp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="08133221155"
-                    android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
 
-                <TextView
-                    android:id="@+id/txtPJ2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-
-
-
-
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Nomor HP \npenanggung jawab"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="08133221155"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"/>
         </LinearLayout>
 
         <TextView
@@ -242,99 +198,105 @@
             android:layout_height="1dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:layout_below="@id/linearklub"
-            android:background="@color/underline" />
+            android:background="@color/underline"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"/>
 
         <LinearLayout
-            android:id="@+id/linearLokasi"
-            android:layout_below="@+id/garis2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="10">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewLokasi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lokasi"/>
-
-                <TextView
-                    android:id="@+id/viewNamaLokasi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nama Lokasi"/>
-
-                <TextView
-                    android:id="@+id/viewKota"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Kota"/>
-
-                <TextView
-                    android:id="@+id/viewProvinsi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Provinsi"/>
-
-                <TextView
-                    android:id="@+id/viewPeta"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Peta"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_weight="1.2"
+                android:text="Nama Lokasi"
+                android:textSize="16sp"/>
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="6"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/txtLokasi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/txtNamaLokasi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bayangkara Futsal"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/txtKota"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Cimahi"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/txtProvinsi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Jawa Barat"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
-
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="Bayangkara Futsal"
+                android:textSize="16sp"/>
         </LinearLayout>
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/map_view"
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="5dp"
-            android:layout_below="@id/linearLokasi"
-            />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Kota"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Cimahi"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Provinsi"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Jawa Barat"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peta"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <fragment
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            map:mapType="normal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp" />
 
         <TextView
             android:id="@+id/garis3"
@@ -342,47 +304,30 @@
             android:layout_height="1dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:layout_below="@id/map_view"
-            android:background="@color/underline" />
+            android:background="@color/underline"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
 
         <LinearLayout
-            android:id="@+id/linearUmur"
-            android:layout_below="@+id/garis3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="10">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewUmur"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Kategori Umur"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_weight="1.2"
+                android:text="Kategori Umur"
+                android:textSize="16sp"/>
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="6"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/txtUmur"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Under 30"
-                    android:textStyle="bold"/>
-
-
-            </LinearLayout>
-
+                android:layout_weight="1.5"
+                android:text="under 23"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
         </LinearLayout>
 
         <TextView
@@ -391,52 +336,34 @@
             android:layout_height="1dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:layout_below="@id/linearUmur"
-            android:background="@color/underline" />
+            android:background="@color/underline"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
 
         <LinearLayout
-            android:id="@+id/linearBiaya"
-            android:layout_below="@+id/garis4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="10">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewBiaya"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Biaya"
-                    android:textColor="@color/textHint"/>
-
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_weight="1.2"
+                android:text="Biaya"
+                android:textColor="@color/newGreen"
+                android:textSize="16sp"/>
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="6"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/txtBiaya"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rp 1.500.000"
-                    android:textStyle="bold"
-                    android:textColor="@color/textHint"/>
-
-            </LinearLayout>
-
+                android:layout_weight="1.5"
+                android:text="Rp 1.500.000"
+                android:textColor="@color/newGreen"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
         </LinearLayout>
 
-    </RelativeLayout>
-
-
-
-</android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+</ScrollView>

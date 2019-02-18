@@ -26,7 +26,11 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array EndHour
+array StartHour
 array array_spinner
+array base_palette_color_names
+array base_palette_colors
 array choose_images
 array dp_status
 array field_types
@@ -1145,6 +1149,8 @@ drawable container_login
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
+drawable defense_1
+drawable defense_2
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1153,6 +1159,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable diffence_1
 drawable diffence_2
+drawable dot_green
+drawable dot_tersedia
+drawable dot_yellow
 drawable drop_down_icon
 drawable goal_keeper
 drawable googleg_disabled_color_18
@@ -1162,6 +1171,7 @@ drawable highlight
 drawable highlight_choose
 drawable home_bg
 drawable ic_access_time_black_24dp
+drawable ic_check_box_outline_blank_black_24dp
 drawable ic_dashboard_black_24dp
 drawable ic_date_range_black_24dp
 drawable ic_help_black_24dp
@@ -1294,6 +1304,7 @@ id btn_choice2
 id btn_choice3
 id btn_choice4
 id btn_choice5
+id btn_submit
 id buttonPanel
 id cancel
 id cancel_action
@@ -1306,6 +1317,7 @@ id center_horizontal
 id center_vertical
 id chains
 id change
+id change_color
 id checkbox
 id chronometer
 id city
@@ -1370,12 +1382,17 @@ id fixed
 id forever
 id forgot_password
 id fragment_container
+id garis1
+id garis2
+id garis3
+id garis4
 id ghost_view
 id goalkeeper
 id gone
 id grass_type
 id gridview
 id group_divider
+id harga
 id hari_jadwal
 id hari_riwayat
 id help
@@ -1392,8 +1409,10 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id id_transaction
 id ifRoom
 id image
+id image_qr_code
 id image_slider
 id img_bintang
 id img_jadwal
@@ -1404,6 +1423,7 @@ id instagram
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id jam
 id jam_jadwal
 id jam_riwayat
 id kalendar
@@ -1418,8 +1438,11 @@ id linear1
 id linear2
 id listMode
 id list_item
+id listview_background_shape
 id logout
+id ly_grid_view
 id main_content
+id map
 id map_view
 id masked
 id match
@@ -1447,6 +1470,8 @@ id order
 id outline
 id oval
 id packed
+id pager
+id pager_title_strip
 id parallax
 id parent
 id parentPanel
@@ -1472,6 +1497,11 @@ id progress_circular
 id progress_horizontal
 id radio
 id rating_bar
+id rb_choice_1
+id rb_choice_2
+id rb_choice_3
+id rb_choice_4
+id rb_choice_5
 id rectangle
 id recycler_view
 id register
@@ -1479,6 +1509,7 @@ id rent_date
 id rent_rate
 id rental
 id request_match
+id rg_umur
 id right
 id right_icon
 id right_side
@@ -1523,6 +1554,10 @@ id snap
 id snapMargins
 id spacer
 id split_action_bar
+id spn_jammulai
+id spn_jamselesai
+id spn_kota
+id spn_provinsi
 id spread
 id spread_inside
 id src_atop
@@ -1549,6 +1584,7 @@ id tabbed
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tanggal
 id terrain
 id text
 id text2
@@ -1576,7 +1612,15 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_biaya
+id tv_jammulai
+id tv_jamselesai
+id tv_kota
+id tv_lokasi
 id tv_process
+id tv_provinvi
+id tv_tanggalpertandingan
+id tv_umur
 id twitter
 id txt_close_layout
 id txt_match
@@ -1652,10 +1696,12 @@ layout abc_tooltip
 layout activity_activation
 layout activity_ajak_tanding
 layout activity_akan_datang
+layout activity_buat_pertandingan
 layout activity_cari_lawan
 layout activity_detail_field
 layout activity_detail_lapangan
 layout activity_detail_order
+layout activity_detail_pertandingan
 layout activity_detail_rent
 layout activity_detail_venue
 layout activity_edit_profile
@@ -1702,6 +1748,7 @@ layout field_item
 layout fragment_beranda
 layout fragment_jadwal
 layout fragment_riwayat_pertandingan
+layout grid_view_layout
 layout image_item
 layout image_slider_custom
 layout list_item
@@ -1724,11 +1771,15 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout order_item
+layout org_dmfs_colorpickerdialog_fragment
+layout org_dmfs_colorpickerdialog_palette_field
+layout org_dmfs_colorpickerdialog_palette_grid
 layout progressdialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout setting_item
+layout spinner_jadwal
 layout spinner_layout
 layout spinner_pembayaran
 layout support_simple_spinner_dropdown_item
@@ -1784,9 +1835,11 @@ string action_settings
 string activation_done
 string app_name
 string appbar_scrolling_view_behavior
+string base_palette_name
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string check_empty_ok
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -1820,7 +1873,9 @@ string error_500
 string error_activation
 string error_confirm_password
 string error_create_image
+string error_date
 string error_device_not_found
+string error_duration
 string error_email
 string error_name
 string error_no_data_filter
@@ -1829,6 +1884,7 @@ string error_password
 string error_password_not_match
 string error_permission_denied
 string error_phone
+string error_start_hour
 string error_username
 string error_xxx
 string error_zero_data
@@ -1880,6 +1936,8 @@ string label_end_hour
 string label_facility
 string label_grass_type
 string label_hour
+string label_id_transaction
+string label_list_jadwal
 string label_location
 string label_logout
 string label_next
@@ -1920,6 +1978,7 @@ string menu_order
 string menu_rental
 string menu_request_match
 string mtrl_chip_close_icon_content_description
+string org_dmfs_colorpicker_pick_a_color
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1948,6 +2007,7 @@ string title_dashboard
 string title_detail_order_activity
 string title_detail_rent_activity
 string title_detail_venue_activity
+string title_dialog_error_message
 string title_edit_profile_activity
 string title_fields_activity
 string title_filter_venues_activity
@@ -2480,6 +2540,8 @@ style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
 style Widget_Support_CoordinatorLayout
+style org_dmfs_colorpicker_AppTheme
+style org_dmfs_colorpicker_BaseTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

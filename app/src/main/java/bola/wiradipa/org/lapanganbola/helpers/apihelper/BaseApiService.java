@@ -121,4 +121,9 @@ public interface BaseApiService {
     @GET("player_matches/{id}")
     Call<ResponseBody> getPlayerMatch(@Path("id") long id,
                                       @Query("phone_number") String phone_number);
+
+    @GET("fields/player_schedule")
+    Call<ResponseBody> getScheduleField(@Query("auth_token") String auth_token,
+                                      @Query("field_id") long field_id,
+                                      @Query("rental_date") String rental_date);
 }

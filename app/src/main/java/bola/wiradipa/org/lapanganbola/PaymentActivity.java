@@ -164,7 +164,7 @@ public class PaymentActivity extends BasePhotoActivity {
                     public void onApiSuccess(String result) {
                         showProgressBar(false);
                         showToast(R.string.submit_ok);
-                        Intent intent = new Intent(context, DetailRentActivity.class);
+                        Intent intent = new Intent(context, DetailOrderActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                         intent.putExtra(DATA, new Gson().toJson(rent));
                         startActivity(intent);
