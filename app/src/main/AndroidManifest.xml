@@ -27,6 +27,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        android:theme="@style/AppTheme">
+        <activity android:name=".BookingFieldActivity"></activity>
+        <activity android:name=".CarilawanActivity"></activity>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="bola.wiradipa.org.lapanganbola.fileprovider"

@@ -57,6 +57,7 @@ public class ActivationActivity extends BaseActivity {
         });
     }
 
+
     private boolean validateData(){
         String activationCode = etActivation.getText().toString();
         if(activationCode.length()<4){
