@@ -1,549 +1,589 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\737a39bd27643fa7ace0e37810703957\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\1b3512985c4df1d8448a85b0a8491b50\AndroidManifest.xml:17:1-24:12
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\82c0078f9141373add84686de33f2578\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a2aaf7a46240ca37f97e03b3d83c04ef\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2f6a47d1c85dcff7aaa233a7b9cf04f7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1a0ea8caaeca5e5c2ca49d24694d10f6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b874d2d46f2e16bb55c82e35f9582c96\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2668312a801657db655353be7f3cbf63\AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\a166aaeaac75c0484bc57d38be8bd7f9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6730dc651b2390b860b4c5dfdd3769ac\AndroidManifest.xml:2:1-11:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\257676d7e138d9965d35552a88ccadaf\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f2d0ea88a3786a3c35d984adcfef3a75\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4326af9459a40786bbd24578789fec96\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c853d01784678d842db0198ccf512c76\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\61fb890a6dc6d5468fb36113506d9c98\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\068aa1ee92b59180b5fa52ff366a9d30\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\1fcebe9c36fd1c3d1a7d939440e7cd54\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5a8d1cd3a71f12b3484a2eea31002cea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c322b8dd8303af670eb3d64a3a42d0f4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\22415d0d2dec806ac52b1700524efec9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2db900b66dd9ca3f529ebbd7ff36e0cc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1b297174e78bcddc2555d1885884b202\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b2222dde2e85e5c82c10b1bb422c5161\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\93154d5e990945a6cef6ae0c91930409\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fab2d1678197fbccc7b772120321373\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2054b1207c9de0436a9edc89a525f8ed\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c83702504c8d157d8a678db7accb03f5\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\07c5a4d2f06bcfcd28efd1d260d23e5d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\deecd56770c63c5fa435062620503acf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\285ec2022cac5fcc0fab44e462f3000e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0bab4814ca5405d9826af86a95b80ce9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5c0a247e5715387de01ce7c65d68ca9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\48c9ae4498ed50e21267665669e76980\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4b396a38fba7f86ca60e2039c7f4afe9\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\74814a9e466adc7382132d3bd50ae241\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c1f5f06e80a83784c4268436b92f1892\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9d7b8d192f8bbc08873564c70429ada2\AndroidManifest.xml:17:1-22:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\5e7063b7cda78b9c3068e45d08c80405\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ba6a7cedde3770814ef27eb48a068ab3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\73ae0bfce85309d5fa889fd6b6dceb04\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9c84a050fe6f3ea71ea8456457ae835d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad2b786cb6b65ba8b35e097a627e1dbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e9947fc444aa56c5408e03ebc30d3199\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a40d0e87f7893e3b1e1fd7185782d7ca\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.dmfs.color-picker:colorpicker:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-1.1.aar\a8b01795b64d3496823505a6f6e8a2e8\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\180312e65e8d6757c5c4d1a9e5ceb6f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\2f55b0e6ce473c91ea65698731bef2bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e559d8dfe911f6e6ff16e2cfd1925982\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\baa0a6f458369b1259c3a421379dde1b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d06140ad6195c01d82088b85b3f0bff0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a2bfb9e1fbd7c381169479886f3ee407\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f3607eb67f4afe8166d1c7fc4e716545\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c27595e18c5be58dd352ae4bc4b61d24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c807545f9b9b6a4a70b95c2b0c814dd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d784a43df12b39f2c4367ffe5b187a00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\feac50263d280ba05ed45937d2d63c46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ff5dfde59473da4605c77cab5c26c5e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c043785eb56916ecbeced5bb483932b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8cd43f4e594417d725661a5a927eed15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3dcd01c38ed03050190634c491266fa7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1acdb48aa08b0d331266d5881a3b732d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\853c11efb5b51aae053f4e13d65cb649\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\939b6f67b2553f5f082c18a78cb012b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bc4d1c2eef710c7806f32bf88aa25df6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1412ef633dca59edbfea88f2ace9df9c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95658f75d1f73caed5861006108a87e4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49149baeb8b4ef2ff8fa445417728d50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6f7ce95bf7327b8a90d146093baa6e8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6bede808fe2bb8ebc82a12210aa6784a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7fbeb84dd157376486887b3fc4859b9f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\825f2aeb9e2503796bdb2449622862a5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\87a3917b263367aa8c0cee0ffc103b51\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c67ed193be158e07e10a1d2e2933a0d4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d02014b9c0a41674a18d6bcdfc96fbb3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\55dd2ea6bf4b0def8ce7d10db7bdd8f4\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
 	package
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:3:5-45
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:1-208:12
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:1-213:12
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:24:5-67
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:6:5-65
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:6:22-62
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:8:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:9:22-78
 uses-feature#android.hardware.camera
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:10:5-60
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:10:19-57
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:11:19-57
 uses-feature#0x00020000
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:11:5-13:35
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:26:5-28:35
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:26:5-28:35
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:12:5-14:35
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:13:9-41
 	android:required
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:13:9-32
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:14:9-32
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:19:5-79
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:19:22-76
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:20:22-76
 application
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:21:5-206:19
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\737a39bd27643fa7ace0e37810703957\AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\737a39bd27643fa7ace0e37810703957\AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\1b3512985c4df1d8448a85b0a8491b50\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\1b3512985c4df1d8448a85b0a8491b50\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b874d2d46f2e16bb55c82e35f9582c96\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b874d2d46f2e16bb55c82e35f9582c96\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:22:5-26:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:7:5-12:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6730dc651b2390b860b4c5dfdd3769ac\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6730dc651b2390b860b4c5dfdd3769ac\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\257676d7e138d9965d35552a88ccadaf\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\257676d7e138d9965d35552a88ccadaf\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c83702504c8d157d8a678db7accb03f5\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c83702504c8d157d8a678db7accb03f5\AndroidManifest.xml:22:5-23:19
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:22:5-211:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\5e7063b7cda78b9c3068e45d08c80405\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\5e7063b7cda78b9c3068e45d08c80405\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ba6a7cedde3770814ef27eb48a068ab3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ba6a7cedde3770814ef27eb48a068ab3\AndroidManifest.xml:22:5-20
+MERGED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:9:5-20:19
+MERGED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:9:5-20:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a40d0e87f7893e3b1e1fd7185782d7ca\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a40d0e87f7893e3b1e1fd7185782d7ca\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e559d8dfe911f6e6ff16e2cfd1925982\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e559d8dfe911f6e6ff16e2cfd1925982\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\baa0a6f458369b1259c3a421379dde1b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\baa0a6f458369b1259c3a421379dde1b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1412ef633dca59edbfea88f2ace9df9c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1412ef633dca59edbfea88f2ace9df9c\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:25:9-41
+	tools:ignore
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:29:9-48
 	android:roundIcon
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:25:9-54
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:26:9-54
 	android:icon
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:24:9-43
 	android:allowBackup
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:23:9-35
 	android:theme
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:27:9-40
-activity#bola.wiradipa.org.lapanganbola.CarilawanActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:28:9-64
-	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:28:19-52
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:28:9-40
 provider#android.support.v4.content.FileProvider
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:grantUriPermissions
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:34:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:34:13-47
 	android:authorities
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:32:13-78
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:32:13-78
 	android:exported
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:31:13-67
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:31:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:35:13-37:54
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:35:13-37:54
 	android:resource
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:37:17-51
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:37:17-51
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:36:17-67
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:36:17-67
 uses-library#org.apache.http.legacy
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:required
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:41:13-50
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:41:13-50
+activity#bola.wiradipa.org.lapanganbola.CarilawanActivity
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:44:9-55
+	android:name
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:44:19-52
 activity#bola.wiradipa.org.lapanganbola.MainActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:44:9-52:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:45:9-53:20
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:45:13-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:46:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:50:27-74
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:51:27-74
 activity#bola.wiradipa.org.lapanganbola.RegisterActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:53:9-57:76
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:54:9-58:76
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:57:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:55:13-60
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:56:13-60
 	android:windowSoftInputMode
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:57:13-73
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:58:13-73
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:54:13-45
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:55:13-45
 activity#bola.wiradipa.org.lapanganbola.ActivationActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:58:9-62:76
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:59:9-63:76
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:62:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:60:13-62
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:61:13-62
 	android:windowSoftInputMode
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:62:13-73
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:63:13-73
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:59:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:60:13-47
 activity#bola.wiradipa.org.lapanganbola.ForgotPasswordActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:63:9-67:76
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:64:9-68:76
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:67:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:65:13-67
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:66:13-67
 	android:windowSoftInputMode
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:67:13-73
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:68:13-73
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:64:13-51
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:65:13-51
 activity#bola.wiradipa.org.lapanganbola.LoginActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:68:9-72:76
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:69:9-73:76
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:71:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:72:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:70:13-57
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:71:13-57
 	android:windowSoftInputMode
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:72:13-73
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:73:13-73
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:69:13-42
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:70:13-42
 activity#bola.wiradipa.org.lapanganbola.DetailVenueActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:73:9-76:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:74:9-77:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:76:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:75:13-64
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:76:13-64
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:74:13-48
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:75:13-48
 activity#bola.wiradipa.org.lapanganbola.FieldsActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:77:9-80:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:78:9-81:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:81:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:79:13-58
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:80:13-58
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:78:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:79:13-43
 activity#bola.wiradipa.org.lapanganbola.DetailFieldActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:81:9-85:59
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:82:9-86:59
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:85:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:83:13-58
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:84:13-58
 	android:theme
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:85:13-56
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:86:13-56
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:82:13-48
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:83:13-48
 activity#bola.wiradipa.org.lapanganbola.VenuesActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:86:9-89:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:87:9-90:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:89:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:90:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:88:13-58
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:89:13-58
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:87:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:88:13-43
 activity#bola.wiradipa.org.lapanganbola.FilterVenuesActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:90:9-93:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:91:9-94:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:94:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:92:13-65
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:93:13-65
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:91:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:92:13-49
 activity#bola.wiradipa.org.lapanganbola.RentActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:94:9-97:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:95:9-98:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:97:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:98:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:96:13-56
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:97:13-56
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:95:13-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:96:13-41
 activity#bola.wiradipa.org.lapanganbola.DetailRentActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:98:9-101:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:99:9-102:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:101:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:102:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:100:13-63
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:101:13-63
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:99:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:100:13-47
 activity#bola.wiradipa.org.lapanganbola.SearchCityActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:102:9-105:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:103:9-106:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:105:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:106:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:104:13-63
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:105:13-63
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:103:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:104:13-47
 activity#bola.wiradipa.org.lapanganbola.ProfileActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:106:9-109:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:107:9-110:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:109:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:110:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:108:13-59
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:109:13-59
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:107:13-44
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:108:13-44
 activity#bola.wiradipa.org.lapanganbola.EditProfileActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:110:9-113:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:111:9-114:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:113:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:114:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:112:13-64
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:113:13-64
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:111:13-48
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:112:13-48
 activity#bola.wiradipa.org.lapanganbola.MatchesActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:114:9-117:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:115:9-118:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:117:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:118:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:116:13-59
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:117:13-59
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:115:13-44
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:116:13-44
 activity#bola.wiradipa.org.lapanganbola.ShareActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:118:9-121:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:119:9-122:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:121:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:122:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:120:13-57
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:121:13-57
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:119:13-42
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:120:13-42
 activity#bola.wiradipa.org.lapanganbola.UploadCardActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:122:9-125:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:123:9-126:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:125:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:126:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:124:13-62
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:125:13-62
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:123:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:124:13-47
 activity#bola.wiradipa.org.lapanganbola.StatisticActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:126:9-129:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:127:9-130:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:129:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:130:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:128:13-61
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:129:13-61
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:127:13-46
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:128:13-46
 activity#bola.wiradipa.org.lapanganbola.OrdersActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:130:9-133:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:131:9-134:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:133:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:134:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:132:13-58
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:133:13-58
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:131:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:132:13-43
 activity#bola.wiradipa.org.lapanganbola.DetailOrderActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:134:9-137:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:135:9-138:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:137:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:138:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:136:13-64
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:137:13-64
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:135:13-48
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:136:13-48
 activity#bola.wiradipa.org.lapanganbola.SettingActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:138:9-141:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:139:9-142:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:141:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:142:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:140:13-59
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:141:13-59
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:139:13-44
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:140:13-44
 activity#bola.wiradipa.org.lapanganbola.ImageActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:142:9-145:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:143:9-146:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:145:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:146:13-49
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:144:13-57
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:145:13-57
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:143:13-42
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:144:13-42
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:146:9-148:52
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:147:9-149:52
 	android:screenOrientation
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:148:13-49
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:149:13-49
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:147:13-76
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:148:13-76
 meta-data#com.google.android.geo.API_KEY
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:157:9-159:55
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:158:9-160:55
 	android:value
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:159:13-52
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:160:13-52
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:158:13-58
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:159:13-58
 activity#bola.wiradipa.org.lapanganbola.Role_Activity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:161:9-163:32
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:162:9-164:32
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:163:13-29
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:164:13-29
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:162:13-42
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:163:13-42
 activity#bola.wiradipa.org.lapanganbola.PaymentActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:164:9-170:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:165:9-171:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:166:13-39
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:167:13-39
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:165:13-44
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:166:13-44
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:167:13-169:59
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:168:13-170:59
 	android:value
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:169:17-56
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:170:17-56
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:168:17-63
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:169:17-63
 activity#bola.wiradipa.org.lapanganbola.DetailLapanganActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:171:9-177:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:172:9-178:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:173:13-44
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:174:13-44
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:172:13-51
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:173:13-51
 activity#bola.wiradipa.org.lapanganbola.JadwalActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:178:9-184:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:179:9-185:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:180:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:181:13-43
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:179:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:180:13-43
 activity#bola.wiradipa.org.lapanganbola.AkanDatangActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:185:9-191:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:186:9-192:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:187:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:188:13-43
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:186:13-47
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:187:13-47
 activity#bola.wiradipa.org.lapanganbola.ProfilActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:192:9-198:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:193:9-199:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:194:13-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:195:13-41
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:193:13-43
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:194:13-43
 activity#bola.wiradipa.org.lapanganbola.AjakTandingActivity
-ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:199:9-205:20
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:200:9-206:20
 	android:label
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:201:13-41
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:202:13-41
 	android:name
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml:200:13-48
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:201:13-48
+activity#bola.wiradipa.org.lapanganbola.DetailPertandinganActivity
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:207:9-209:60
+	android:label
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:209:13-48
+	android:name
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:208:13-55
+activity#bola.wiradipa.org.lapanganbola.BuatPertandinganActivity
+ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:210:9-71
+	android:name
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml:210:19-59
 uses-sdk
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\737a39bd27643fa7ace0e37810703957\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\737a39bd27643fa7ace0e37810703957\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\1b3512985c4df1d8448a85b0a8491b50\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\1b3512985c4df1d8448a85b0a8491b50\AndroidManifest.xml:20:5-44
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\82c0078f9141373add84686de33f2578\AndroidManifest.xml:7:5-9:41
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\82c0078f9141373add84686de33f2578\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a2aaf7a46240ca37f97e03b3d83c04ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a2aaf7a46240ca37f97e03b3d83c04ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2f6a47d1c85dcff7aaa233a7b9cf04f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2f6a47d1c85dcff7aaa233a7b9cf04f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1a0ea8caaeca5e5c2ca49d24694d10f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1a0ea8caaeca5e5c2ca49d24694d10f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b874d2d46f2e16bb55c82e35f9582c96\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\b874d2d46f2e16bb55c82e35f9582c96\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2668312a801657db655353be7f3cbf63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2668312a801657db655353be7f3cbf63\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\a166aaeaac75c0484bc57d38be8bd7f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\a166aaeaac75c0484bc57d38be8bd7f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6730dc651b2390b860b4c5dfdd3769ac\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6730dc651b2390b860b4c5dfdd3769ac\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\257676d7e138d9965d35552a88ccadaf\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\257676d7e138d9965d35552a88ccadaf\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f2d0ea88a3786a3c35d984adcfef3a75\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f2d0ea88a3786a3c35d984adcfef3a75\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4326af9459a40786bbd24578789fec96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4326af9459a40786bbd24578789fec96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c853d01784678d842db0198ccf512c76\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c853d01784678d842db0198ccf512c76\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\61fb890a6dc6d5468fb36113506d9c98\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\61fb890a6dc6d5468fb36113506d9c98\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\068aa1ee92b59180b5fa52ff366a9d30\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\068aa1ee92b59180b5fa52ff366a9d30\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\1fcebe9c36fd1c3d1a7d939440e7cd54\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\1fcebe9c36fd1c3d1a7d939440e7cd54\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5a8d1cd3a71f12b3484a2eea31002cea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5a8d1cd3a71f12b3484a2eea31002cea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c322b8dd8303af670eb3d64a3a42d0f4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c322b8dd8303af670eb3d64a3a42d0f4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\22415d0d2dec806ac52b1700524efec9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\22415d0d2dec806ac52b1700524efec9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2db900b66dd9ca3f529ebbd7ff36e0cc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2db900b66dd9ca3f529ebbd7ff36e0cc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1b297174e78bcddc2555d1885884b202\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1b297174e78bcddc2555d1885884b202\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b2222dde2e85e5c82c10b1bb422c5161\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b2222dde2e85e5c82c10b1bb422c5161\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\93154d5e990945a6cef6ae0c91930409\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\93154d5e990945a6cef6ae0c91930409\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fab2d1678197fbccc7b772120321373\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fab2d1678197fbccc7b772120321373\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2054b1207c9de0436a9edc89a525f8ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2054b1207c9de0436a9edc89a525f8ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\07f6ac0187840b914e43b4ef95421722\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c83702504c8d157d8a678db7accb03f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c83702504c8d157d8a678db7accb03f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\07c5a4d2f06bcfcd28efd1d260d23e5d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\07c5a4d2f06bcfcd28efd1d260d23e5d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\deecd56770c63c5fa435062620503acf\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\deecd56770c63c5fa435062620503acf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\285ec2022cac5fcc0fab44e462f3000e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\285ec2022cac5fcc0fab44e462f3000e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0bab4814ca5405d9826af86a95b80ce9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0bab4814ca5405d9826af86a95b80ce9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5c0a247e5715387de01ce7c65d68ca9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5c0a247e5715387de01ce7c65d68ca9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\48c9ae4498ed50e21267665669e76980\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\48c9ae4498ed50e21267665669e76980\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4b396a38fba7f86ca60e2039c7f4afe9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4b396a38fba7f86ca60e2039c7f4afe9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\74814a9e466adc7382132d3bd50ae241\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\74814a9e466adc7382132d3bd50ae241\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c1f5f06e80a83784c4268436b92f1892\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c1f5f06e80a83784c4268436b92f1892\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9d7b8d192f8bbc08873564c70429ada2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9d7b8d192f8bbc08873564c70429ada2\AndroidManifest.xml:20:5-44
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\5e7063b7cda78b9c3068e45d08c80405\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\5e7063b7cda78b9c3068e45d08c80405\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ba6a7cedde3770814ef27eb48a068ab3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ba6a7cedde3770814ef27eb48a068ab3\AndroidManifest.xml:20:5-44
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\73ae0bfce85309d5fa889fd6b6dceb04\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.7.0.aar\73ae0bfce85309d5fa889fd6b6dceb04\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9c84a050fe6f3ea71ea8456457ae835d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9c84a050fe6f3ea71ea8456457ae835d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad2b786cb6b65ba8b35e097a627e1dbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad2b786cb6b65ba8b35e097a627e1dbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e9947fc444aa56c5408e03ebc30d3199\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e9947fc444aa56c5408e03ebc30d3199\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a40d0e87f7893e3b1e1fd7185782d7ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a40d0e87f7893e3b1e1fd7185782d7ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:20:5-44
+MERGED from [com.github.dmfs.color-picker:colorpicker:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-1.1.aar\a8b01795b64d3496823505a6f6e8a2e8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.dmfs.color-picker:colorpicker:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-1.1.aar\a8b01795b64d3496823505a6f6e8a2e8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\180312e65e8d6757c5c4d1a9e5ceb6f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\180312e65e8d6757c5c4d1a9e5ceb6f7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\2f55b0e6ce473c91ea65698731bef2bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\exifinterface-28.0.0.aar\2f55b0e6ce473c91ea65698731bef2bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e559d8dfe911f6e6ff16e2cfd1925982\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e559d8dfe911f6e6ff16e2cfd1925982\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\baa0a6f458369b1259c3a421379dde1b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\baa0a6f458369b1259c3a421379dde1b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d06140ad6195c01d82088b85b3f0bff0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d06140ad6195c01d82088b85b3f0bff0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a2bfb9e1fbd7c381169479886f3ee407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a2bfb9e1fbd7c381169479886f3ee407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f3607eb67f4afe8166d1c7fc4e716545\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f3607eb67f4afe8166d1c7fc4e716545\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c27595e18c5be58dd352ae4bc4b61d24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c27595e18c5be58dd352ae4bc4b61d24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c807545f9b9b6a4a70b95c2b0c814dd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c807545f9b9b6a4a70b95c2b0c814dd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d784a43df12b39f2c4367ffe5b187a00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d784a43df12b39f2c4367ffe5b187a00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\feac50263d280ba05ed45937d2d63c46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\feac50263d280ba05ed45937d2d63c46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ff5dfde59473da4605c77cab5c26c5e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ff5dfde59473da4605c77cab5c26c5e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c043785eb56916ecbeced5bb483932b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c043785eb56916ecbeced5bb483932b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8cd43f4e594417d725661a5a927eed15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8cd43f4e594417d725661a5a927eed15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3dcd01c38ed03050190634c491266fa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3dcd01c38ed03050190634c491266fa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1acdb48aa08b0d331266d5881a3b732d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1acdb48aa08b0d331266d5881a3b732d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\853c11efb5b51aae053f4e13d65cb649\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\853c11efb5b51aae053f4e13d65cb649\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\939b6f67b2553f5f082c18a78cb012b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\939b6f67b2553f5f082c18a78cb012b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bc4d1c2eef710c7806f32bf88aa25df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bc4d1c2eef710c7806f32bf88aa25df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6ff15bb95e441285dea6393eb163f051\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1412ef633dca59edbfea88f2ace9df9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1412ef633dca59edbfea88f2ace9df9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95658f75d1f73caed5861006108a87e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95658f75d1f73caed5861006108a87e4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49149baeb8b4ef2ff8fa445417728d50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49149baeb8b4ef2ff8fa445417728d50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6f7ce95bf7327b8a90d146093baa6e8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6f7ce95bf7327b8a90d146093baa6e8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6bede808fe2bb8ebc82a12210aa6784a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6bede808fe2bb8ebc82a12210aa6784a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7fbeb84dd157376486887b3fc4859b9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7fbeb84dd157376486887b3fc4859b9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\825f2aeb9e2503796bdb2449622862a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\825f2aeb9e2503796bdb2449622862a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\87a3917b263367aa8c0cee0ffc103b51\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\87a3917b263367aa8c0cee0ffc103b51\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c67ed193be158e07e10a1d2e2933a0d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c67ed193be158e07e10a1d2e2933a0d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d02014b9c0a41674a18d6bcdfc96fbb3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d02014b9c0a41674a18d6bcdfc96fbb3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\55dd2ea6bf4b0def8ce7d10db7bdd8f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\55dd2ea6bf4b0def8ce7d10db7bdd8f4\AndroidManifest.xml:20:5-44
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		ADDED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-		INJECTED from H:\KULIAH\SEMESTER 6\MAGANG\Project Magang\UserLapangBola\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c897e6a6735d168e6dc55e3115ec9966\AndroidManifest.xml:23:22-76
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:23:9-26:75
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		ADDED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FOLDER GUA\Wiradipa\UserLapangBola\LapanganBola\app\src\main\AndroidManifest.xml
+activity#org.dmfs.android.colorpicker.activity.ColorPickerActivity
+ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:10:9-19:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:25:13-37
+		ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:12:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:26:13-72
+		ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:13:13-65
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\825b7a15ecf051118f4331fb75df8ead\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:25:13-66
+		ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:11:13-85
+intent-filter#action:name:org.openintents.action.PICK_COLOR+category:name:android.intent.category.DEFAULT
+ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:14:13-18:29
+action#org.openintents.action.PICK_COLOR
+ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:15:17-76
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7749afb3fcea05d2d673d65e52075c71\AndroidManifest.xml:24:13-58
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:10:13-72
+		ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:15:25-73
+category#android.intent.category.DEFAULT
+ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:17:17-76
+	android:name
+		ADDED from [com.github.dmfs.color-picker:colorpicker-activity:1.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\colorpicker-activity-1.1.aar\5c70dd577e1b63e8ca57613fd029c0cc\AndroidManifest.xml:17:27-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\5ab2f32003134909ceb2c82d8821c768\AndroidManifest.xml:23:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aeef13a0706378d205f9c46a14a7833a\AndroidManifest.xml:9:13-64
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\9360e3df4eeb69c69fd47c0fe6eca933\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\df8e858212f9ddfb99bb16fdfa371031\AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\CruthOvr\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\4993508339ebbe71c01dbc3b85ba9cf3\AndroidManifest.xml:9:13-64

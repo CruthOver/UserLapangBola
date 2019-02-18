@@ -35,7 +35,7 @@ public class FieldAdapter extends RecyclerView.Adapter<FieldAdapter.MyViewHolder
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView name, rent_rate, detail;
         public ImageView picture, detail_icon;
-        public Button submit;
+//        public Button submit;
         public LinearLayout top;
 
         public MyViewHolder(View view) {
@@ -45,7 +45,7 @@ public class FieldAdapter extends RecyclerView.Adapter<FieldAdapter.MyViewHolder
             picture = view.findViewById(R.id.picture);
             detail_icon = view.findViewById(R.id.detail_icon);
             detail = view.findViewById(R.id.detail);
-            submit = view.findViewById(R.id.submit);
+//            submit = view.findViewById(R.id.submit);
             top = view.findViewById(R.id.top);
 
             top.setOnClickListener(new View.OnClickListener() {
@@ -75,14 +75,14 @@ public class FieldAdapter extends RecyclerView.Adapter<FieldAdapter.MyViewHolder
                 }
             });
 
-            submit.setOnClickListener(new View.OnClickListener() {
+            /*submit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     // send selected product in callback
                     if (listener != null)
                         listener.onNextSelected(dataList.get(getAdapterPosition()));
                 }
-            });
+            });*/
         }
     }
 
@@ -130,9 +130,9 @@ public class FieldAdapter extends RecyclerView.Adapter<FieldAdapter.MyViewHolder
                 .placeholder(R.drawable.lapangan)
                 .into(holder.picture);
 
-        if(canSubmit) {
+        /*if(canSubmit) {
             holder.submit.setVisibility(View.VISIBLE);
-        } else holder.submit.setVisibility(View.INVISIBLE);
+        } else holder.submit.setVisibility(View.INVISIBLE);*/
     }
 
     @Override

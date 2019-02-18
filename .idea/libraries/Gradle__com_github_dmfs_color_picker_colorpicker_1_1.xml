@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dmfs.color-picker:colorpicker-1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-1.1.aar/a8b01795b64d3496823505a6f6e8a2e8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-1.1.aar/a8b01795b64d3496823505a6f6e8a2e8/jars/libs/drawablepagertabstrip.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-1.1.aar/a8b01795b64d3496823505a6f6e8a2e8/jars/libs/android-retention-magic-1.2.2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-1.1.aar/a8b01795b64d3496823505a6f6e8a2e8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

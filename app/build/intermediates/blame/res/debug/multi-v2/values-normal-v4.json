@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\KULIAH\\SEMESTER 6\\MAGANG\\Project Magang\\UserLapangBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+            "outputFile": "D:\\FOLDER GUA\\Wiradipa\\UserLapangBola\\LapanganBola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
             "map": [
                 {
-                    "source": "H:\\KULIAH\\SEMESTER 6\\MAGANG\\Project Magang\\UserLapangBola\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "source": "D:\\FOLDER GUA\\Wiradipa\\UserLapangBola\\LapanganBola\\app\\src\\main\\res\\values-normal\\dimens.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
-                        "startOffsets": "103,57",
+                        "startOffsets": "100,55",
                         "endColumns": "45,44",
-                        "endOffsets": "144,97"
+                        "endOffsets": "141,95"
                     },
                     "to": {
                         "startLines": "2,3",

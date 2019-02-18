@@ -343,6 +343,24 @@ public class BaseActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    public void showEmptyMessage(int title, int message, int ok){
+        AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                .setTitle(title)
+                .setMessage(message);
+        if(ok!=0){
+            builder.setPositiveButton(ok, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User clicked OK button
+                    dialog.dismiss();
+                }
+            });
+        }
+
+        AlertDialog alertDialog = builder.create();
+
+        alertDialog.show();
+    }
+
     public void showWarning(final Intent intent, int title, int message, int ok, int cancel){
         AlertDialog.Builder builder = new AlertDialog.Builder(context)
                 .setTitle(title)

@@ -28,13 +28,15 @@
     <string name="title_share_activity">PILIH PHOTO</string>
     <string name="title_statistic_activity">PILIH PHOTO</string>
     <string name="title_activation_done">Aktivasi Berhasil</string>
-    <string name="title_orders_activity">Pesanan</string>
-    <string name="title_detail_order_activity">Detil Pesanan</string>
+    <string name="title_orders_activity">PESANAN</string>
+    <string name="title_detail_order_activity">DETAIL PESANAN</string>
     <string name="title_setting_activity">SETTING</string>
+    <string name="title_dialog_error_message">KESALAHAN</string>
 
     <!-- LABEL -->
     <string name="label_city">Kota</string>
     <string name="label_rent_date">Tanggal Main</string>
+    <string name="label_id_transaction">ID Transaksi</string>
     <string name="label_hour">Waktu Main</string>
     <string name="label_end_hour">Selesai Main</string>
     <string name="label_duration">Durasi Main</string>
@@ -102,7 +104,7 @@
     <string name="hint_register">REGISTRASI</string>
     <string name="hint_search">CARI</string>
     <string name="hint_password">Password</string>
-    <string name="hint_username">Username</string>
+    <string name="hint_username">Username/Email</string>
     <string name="hint_name">Nama</string>
     <string name="hint_email">Email</string>
     <string name="hint_phone">Nomor HP</string>
@@ -143,12 +145,16 @@
     <string name="error_no_data_filter">Tanggal, jam, dan durasi main harus diisi</string>
     <string name="error_permission_denied">permission denied</string>
     <string name="error_create_image">terjadi kesalahan dalam gambar.</string>
+    <string name="error_date">Anda belum memilih tanggal.</string>
+    <string name="error_start_hour">Anda belum memilih waktu main.</string>
+    <string name="error_duration">Anda belum memilih durasi main.</string>
 
     <!-- WARNING -->
     <string name="warning_title">Konfirmasi</string>
     <string name="warning_back">Anda yakin ingin meninggalkan halaman ini</string>
     <string name="warning_ok">iya</string>
     <string name="warning_cancel">tidak</string>
+    <string name="check_empty_ok">OK</string>
 
     <!-- ERROR API -->
     <string name="forgot_ok">Data Pengguna telah dikirim ke nomor handphone anda.</string>
@@ -206,4 +212,5 @@
         <item>Lapangan Bola</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
+    <string name="label_list_jadwal">Jam dan Status</string>
 </resources>

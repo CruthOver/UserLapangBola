@@ -32,6 +32,8 @@ public class OrdersActivity extends BaseActivity {
 
         checkSession();
 
+        Log.d(getUserToken());
+
         dataList = new ArrayList<>();
         adapter = new RentAdapter(context, dataList, new AdapterAlternativeListener<Rent>() {
             @Override

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bola.wiradipa.org.lapanganbola"
-    android:versionCode="2"
-    android:versionName="1.0.1" >
+    android:versionCode="3"
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -37,8 +37,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="bola.wiradipa.org.lapanganbola.CarilawanActivity" />
-
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="bola.wiradipa.org.lapanganbola.fileprovider"
@@ -53,6 +51,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
+        <activity android:name="bola.wiradipa.org.lapanganbola.CarilawanActivity" />
         <activity
             android:name="bola.wiradipa.org.lapanganbola.MainActivity"
             android:screenOrientation="portrait" >
@@ -214,6 +213,20 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="bola.wiradipa.org.lapanganbola.DetailPertandinganActivity"
+            android:label="DETAIL PERTANDINGAN" />
+        <activity android:name="bola.wiradipa.org.lapanganbola.BuatPertandinganActivity" />
+        <activity
+            android:name="org.dmfs.android.colorpicker.activity.ColorPickerActivity"
+            android:exported="false"
+            android:theme="@style/org_dmfs_colorpicker_AppTheme" >
+            <intent-filter>
+                <action android:name="org.openintents.action.PICK_COLOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
