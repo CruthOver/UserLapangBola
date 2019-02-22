@@ -224,8 +224,20 @@
                         android:textSize="14sp"
                         android:layout_marginLeft="8dp"/>
                 </LinearLayout>
-
-                <GridView
+                <bola.wiradipa.org.lapanganbola.NonScrollGridView
+                    android:id="@+id/spotsView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:horizontalSpacing="10dp"
+                    android:isScrollContainer="false"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp"/>
+                <android.support.v7.widget.RecyclerView
                     android:id="@+id/gridview"
                     android:layout_width="match_parent"
                     android:layout_height="400dp"

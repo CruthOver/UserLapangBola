@@ -8,6 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="8dp"
+    android:background="@drawable/dot_tersedia"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
